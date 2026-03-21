@@ -1,0 +1,11 @@
+19:28:46 [INFO] pipeline: Pipeline: 360 conditions, 0 done, 360 pending, stages={'stage1', 'stage2', 'stage5', 'stage3', 'stage4'}
+19:28:46 [INFO] pipeline: [1/360] prisoners_dilemma vs always_cooperate ep=0 seed=1602464611
+19:30:49 [INFO] openai._base_client: Retrying request to /chat/completions in 0.454184 seconds
+19:30:50 [INFO] openai._base_client: Retrying request to /chat/completions in 0.814116 seconds
+19:31:33 [INFO] checkpoint: Pipeline checkpoint: 1 done, 359 pending
+19:31:33 [INFO] pipeline: [2/360] prisoners_dilemma vs always_cooperate ep=1 seed=1221857980
+19:31:53 [INFO] openai._base_client: Retrying request to /chat/completions in 0.430750 seconds
+19:35:08 [INFO] checkpoint: Pipeline checkpoint: 2 done, 358 pending
+19:35:08 [INFO] pipeline: [3/360] prisoners_dilemma vs always_cooperate ep=2 seed=841251349
+19:35:37 [WARNING] pipeline: Interrupted — saving checkpoint
+19:35:37 [INFO] checkpoint: Pipeline checkpoint: 2 done, 358 pending

@@ -1,0 +1,126 @@
+======================================================================
+EXP 3: BELIEF-ACTION COUPLING
+Provider: groq | Model: llama-3.1-8b-instant | Date: 2026-03-21 12:13:52
+Paired seed design: YES
+======================================================================
+Run Configuration:
+  Provider: groq | Model: llama-3.1-8b-instant
+  Games: battle_of_sexes, chicken, prisoners_dilemma, stag_hunt
+  Opponents/Game: 9
+  Episodes/Opponent: 10
+  Rounds/Episode: 10
+  Probe Rounds: [3, 6, 10]
+  Tau (identifiability): 0.60 | Alpha (margin): 0.05
+  Plausible Perturbation Lambda: 0.80
+  Seed policy: deterministic per (game, opponent, episode)
+  Temperature: 0.0 | Top_p: 1.0
+  Code Version: N/A
+Metric scope:
+  Conditional agreement and EU coherence on identifiable probe states
+  Identifiable: max(oracle posterior) >= 0.60
+  Action-Sensitive: |EU_margin(oracle) - EU_margin(uniform)| >= alpha*payoff_range (alpha=0.05)
+  B and B2 payoffs are one-step counterfactual substitutions against the
+  realized opponent action from the matched baseline episode at round t.
+  This estimates immediate decision quality, not full trajectory payoff.
+Integrity:
+  Parse Failures: 0 | Schema Failures: 0 | Retried Calls: N/A
+  Identifiable States: 221
+  Action-Sensitive States: 855
+-- PRISONERS_DILEMMA --------------------------------------------------
+  Variant A (Baseline):          NormPayoff=0.5073  CoopRate=0.7822  N=90
+  Variant B (Single-call):       NormPayoff=0.4689  CoopRate=0.9333  N=90
+  Variant B2 (Two-stage):        NormPayoff=0.5059  CoopRate=0.7593  N=90
+  Variant C (Oracle):            NormPayoff=0.4169  CoopRate=0.0000  N=90
+  Delta B-A:   -0.0384  [95% CI: -0.0531, -0.0238]  N=90
+  Delta B2-A:  -0.0014  [95% CI: -0.0114, 0.0086]  N=90
+  Delta C-A:   -0.0904  [95% CI: -0.1422, -0.0387]  N=90  (Belief Use Capability)
+  Identifiable States: 53 | Action-Sensitive States: 48
+  Conditional Action Agreement:   0.1944  [95% CI: 0.0910, 0.2979]  N=24  (on identifiable states)
+  EU-Consistent Coherence (B):    0.0667  [95% CI: 0.0292, 0.1042]  N=90
+  EU-Consistent Coherence (B2):   0.2407  [95% CI: 0.1608, 0.3207]  N=90
+  Fraction of Oracle Gain Captured by B2: N/A
+  Action Distribution:
+    B:  C=252  D=18
+    B2: C=205  D=65
+    C:  C=0  D=900
+-- STAG_HUNT ----------------------------------------------------------
+  Variant A (Baseline):          NormPayoff=0.8856  CoopRate=0.8167  N=90
+  Variant B (Single-call):       NormPayoff=0.8000  CoopRate=1.0000  N=90
+  Variant B2 (Two-stage):        NormPayoff=0.8824  CoopRate=0.7963  N=90
+  Variant C (Oracle):            NormPayoff=0.8556  CoopRate=0.7678  N=90
+  Delta B-A:   -0.0856  [95% CI: -0.1216, -0.0495]  N=90
+  Delta B2-A:  -0.0031  [95% CI: -0.0164, 0.0101]  N=90
+  Delta C-A:   -0.0300  [95% CI: -0.0558, -0.0042]  N=90  (Belief Use Capability)
+  Identifiable States: 44 | Action-Sensitive States: 267
+  Conditional Action Agreement:   0.0000  [95% CI: 0.0000, 0.0000]  N=19  (on identifiable states)
+  EU-Consistent Coherence (B):    0.8333  [95% CI: 0.7662, 0.9004]  N=90
+  EU-Consistent Coherence (B2):   0.9630  [95% CI: 0.9412, 0.9847]  N=90
+  Fraction of Oracle Gain Captured by B2: N/A
+  Action Distribution:
+    B:  C=270  D=0
+    B2: C=215  D=55
+    C:  C=691  D=209
+-- CHICKEN ------------------------------------------------------------
+  Variant A (Baseline):          NormPayoff=0.4856  CoopRate=0.7933  N=90
+  Variant B (Single-call):       NormPayoff=0.5185  CoopRate=1.0000  N=90
+  Variant B2 (Two-stage):        NormPayoff=0.4889  CoopRate=0.7741  N=90
+  Variant C (Oracle):            NormPayoff=0.2822  CoopRate=0.1689  N=90
+  Delta B-A:   0.0330  [95% CI: 0.0185, 0.0474]  N=90
+  Delta B2-A:  0.0033  [95% CI: -0.0107, 0.0174]  N=90
+  Delta C-A:   -0.2033  [95% CI: -0.2526, -0.1540]  N=90  (Belief Use Capability)
+  Identifiable States: 55 | Action-Sensitive States: 270
+  Conditional Action Agreement:   0.0000  [95% CI: 0.0000, 0.0000]  N=24  (on identifiable states)
+  EU-Consistent Coherence (B):    0.1815  [95% CI: 0.1121, 0.2509]  N=90
+  EU-Consistent Coherence (B2):   0.0444  [95% CI: 0.0209, 0.0680]  N=90
+  Fraction of Oracle Gain Captured by B2: N/A
+  Action Distribution:
+    B:  C=270  D=0
+    B2: C=209  D=61
+    C:  C=152  D=748
+-- BATTLE_OF_SEXES ----------------------------------------------------
+  Variant A (Baseline):          NormPayoff=0.7589  CoopRate=0.5978  N=90
+  Variant B (Single-call):       NormPayoff=0.6037  CoopRate=1.0000  N=90
+  Variant B2 (Two-stage):        NormPayoff=0.8037  CoopRate=0.6630  N=90
+  Variant C (Oracle):            NormPayoff=0.8922  CoopRate=0.9000  N=90
+  Delta B-A:   -0.1552  [95% CI: -0.2017, -0.1087]  N=90
+  Delta B2-A:  0.0448  [95% CI: 0.0187, 0.0710]  N=90
+  Delta C-A:   0.1333  [95% CI: 0.1033, 0.1634]  N=90  (Belief Use Capability)
+  Identifiable States: 69 | Action-Sensitive States: 270
+  Conditional Action Agreement:   0.0000  [95% CI: 0.0000, 0.0000]  N=40  (on identifiable states)
+  EU-Consistent Coherence (B):    0.5889  [95% CI: 0.5450, 0.6327]  N=90
+  EU-Consistent Coherence (B2):   0.8889  [95% CI: 0.8562, 0.9215]  N=90
+  Fraction of Oracle Gain Captured by B2: 0.3361
+  Action Distribution:
+    B:  C=270  D=0
+    B2: C=179  D=91
+    C:  C=810  D=90
+-- OVERALL ---------------------------------------------------------
+  Variant A (Baseline):          NormPayoff=0.6593  CoopRate=0.7475
+  Variant B (Single-call):       NormPayoff=0.5978  CoopRate=0.9833
+  Variant B2 (Two-stage):        NormPayoff=0.6702  CoopRate=0.7481
+  Variant C (Oracle):            NormPayoff=0.6117  CoopRate=0.4592
+  Delta B-A:   -0.0616  [95% CI: -0.0786, -0.0445]  N=360
+  Delta B2-A:  0.0109  [95% CI: 0.0022, 0.0196]  N=360
+  Delta C-A:   -0.0476  [95% CI: -0.0715, -0.0237]  N=360  (Belief Use Capability)
+  Identifiable States: 221 | Action-Sensitive States: 855
+  Conditional Action Agreement:   0.0436  [95% CI: 0.0161, 0.0712]  N=107  (on identifiable states)
+  EU-Consistent Coherence (B):    0.4176  [95% CI: 0.3751, 0.4601]  N=360
+  EU-Consistent Coherence (B2):   0.5343  [95% CI: 0.4871, 0.5814]  N=360
+
+Warnings / Notes:
+  B and B2 payoffs are one-step counterfactual substitutions against the
+  realized opponent action from the matched baseline episode at round t.
+  This estimates immediate decision quality, not full trajectory payoff.
+
+Trace Audit:
+  Conditions Read: 360
+  Unique Games: 4
+  Unique Episodes: 360
+
+Coverage Check:
+  Expected Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Observed Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Expected Episodes/Game: 90
+  Observed Episodes: 360
+  Missing Games: none
+  Incomplete Games: none

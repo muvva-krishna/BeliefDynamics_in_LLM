@@ -1,0 +1,190 @@
+======================================================================
+EXP 2: BELIEF ELICITATION AND CALIBRATION
+Provider: groq | Model: llama-3.1-8b-instant | Date: 2026-03-21 12:13:51
+Probe rounds: 3,6,10 | Identifiability threshold: tau=0.60
+======================================================================
+Run Configuration:
+  Provider: groq | Model: llama-3.1-8b-instant
+  Games: battle_of_sexes, chicken, prisoners_dilemma, stag_hunt
+  Opponents/Game: 9
+  Episodes/Opponent: 10
+  Rounds/Episode: 10
+  Probe Rounds: [3, 6, 10]
+  Tau (identifiability): 0.60 | Alpha (margin): 0.05
+  Plausible Perturbation Lambda: 0.80
+  Seed policy: deterministic per (game, opponent, episode)
+  Temperature: 0.0 | Top_p: 1.0
+  Code Version: N/A
+Metric scope:
+  Headline KL/Brier/ECE computed on identifiable probes only (max oracle >= 0.60)
+  Type Accuracy computed on all probes
+  ECE/MCE from confidence as P(argmax correct)
+Integrity:
+  Total Probes: 1080 | Identifiable Probes: 221 | Parse Failures: 0
+  Schema Failures: 0 | Missing Posterior Fields: 1 | Retried Calls: N/A
+Data Validity / Inclusion:
+  Total Probes: 1080
+  Valid Posterior Probes: 1079
+  Missing Posterior Probes: 1
+  Identifiable Probes: 221
+  Probes Used for KL/Brier: 221 (identifiable only)
+  Probes Used for ECE/MCE: 1079 (all with posterior)
+-- PRISONERS_DILEMMA --------------------------------------------------
+  N Episodes: 90 | N Identifiable Probes: 53 | Total Probes: 270
+  KL Divergence:    14.5320  [95% CI: 13.4803, 15.5837]  N=24
+  KL (median/min/max): 15.9209 / 5.4719 / 15.9664
+  Brier Score:      1.8625  [95% CI: 1.7286, 1.9964]  N=24
+  Brier (median/min/max): 2.0000 / 0.6950 / 2.0000
+  Type Accuracy:    0.1296  [95% CI: 0.0815, 0.1777]  N=90  | Chance=0.1111
+  ECE:              0.1722  [95% CI: 0.1269, 0.2176]  N=90
+  MCE:              0.2267
+  Prediction Accuracy: 0.8722
+  Uniform Brier Baseline: 0.8889
+
+  By Probe Round:
+  Round      Mean KL    Mean Brier   Type Acc   Pred Acc       N
+  ─────────────────────────────────────────────────────
+  t=3       14.2463        1.8400     0.0833     1.0000      12
+  t=6       12.7037        1.6010     0.2000     0.6000      20
+  t=10      15.8845        2.0000     0.0000       N/A       21
+
+  Opponent Breakdown:
+  OPPONENT                    Mean KL      Brier    TypeAcc       ECE   CoopRate       N
+  ─────────────────────────────────────────────────────────────────────
+  always_cooperate             0.0000     0.0000     0.3333    0.0500     1.0000      10
+  always_defect               13.3324     1.6700     0.1667    0.3050     0.1000      10
+  tit_for_tat                  0.0000     0.0000     0.0000    0.0500     1.0000      10
+  grim_trigger                 0.0000     0.0000     0.0000    0.0500     1.0000      10
+  win_stay_lose_shift          0.0000     0.0000     0.0000    0.0500     1.0000      10
+  noisy_tit_for_tat           14.4514     2.0000     0.0000    0.2450     0.5400      10
+  deceptive_opportunist       15.9097     2.0000     0.0000    0.7000     0.4000      10
+  gradual_defector             0.0000     0.0000     0.0000    0.0500     1.0000      10
+  adaptive_mirror              0.0000     0.0000     0.6667    0.0500     1.0000      10
+-- STAG_HUNT ----------------------------------------------------------
+  N Episodes: 90 | N Identifiable Probes: 44 | Total Probes: 270
+  KL Divergence:    15.7631  [95% CI: 15.6337, 15.8925]  N=19
+  KL (median/min/max): 15.9116 / 14.9313 / 15.9609
+  Brier Score:      2.0000  [95% CI: 2.0000, 2.0000]  N=19
+  Brier (median/min/max): 2.0000 / 2.0000 / 2.0000
+  Type Accuracy:    0.1111  [95% CI: 0.0649, 0.1573]  N=90  | Chance=0.1111
+  ECE:              0.1194  [95% CI: 0.0705, 0.1684]  N=90
+  MCE:              0.1778
+  Prediction Accuracy: 0.9444
+  Uniform Brier Baseline: 0.8889
+
+  By Probe Round:
+  Round      Mean KL    Mean Brier   Type Acc   Pred Acc       N
+  ─────────────────────────────────────────────────────
+  t=3       15.9007        2.0000     0.0000     1.0000      10
+  t=6       15.8170        2.0000     0.0000     0.8125      16
+  t=10      15.8219        2.0000     0.0000       N/A       18
+
+  Opponent Breakdown:
+  OPPONENT                    Mean KL      Brier    TypeAcc       ECE   CoopRate       N
+  ─────────────────────────────────────────────────────────────────────
+  always_cooperate             0.0000     0.0000     0.3333    0.0000     1.0000      10
+  always_defect               15.9116     2.0000     0.0000    0.3500     0.1000      10
+  tit_for_tat                  0.0000     0.0000     0.0000    0.0000     1.0000      10
+  grim_trigger                 0.0000     0.0000     0.0000    0.0000     1.0000      10
+  win_stay_lose_shift          0.0000     0.0000     0.0000    0.0000     1.0000      10
+  noisy_tit_for_tat           15.1333     2.0000     0.0000    0.1750     0.8100      10
+  deceptive_opportunist       15.7310     2.0000     0.0000    0.5500     0.4400      10
+  gradual_defector             0.0000     0.0000     0.0000    0.0000     1.0000      10
+  adaptive_mirror              0.0000     0.0000     0.6667    0.0000     1.0000      10
+-- CHICKEN ------------------------------------------------------------
+  N Episodes: 90 | N Identifiable Probes: 55 | Total Probes: 270
+  KL Divergence:    15.7574  [95% CI: 15.6112, 15.9035]  N=24
+  KL (median/min/max): 15.9485 / 14.7226 / 15.9664
+  Brier Score:      2.0000  [95% CI: 2.0000, 2.0000]  N=24
+  Brier (median/min/max): 2.0000 / 2.0000 / 2.0000
+  Type Accuracy:    0.1111  [95% CI: 0.0649, 0.1573]  N=90  | Chance=0.1111
+  ECE:              0.1189  [95% CI: 0.0735, 0.1643]  N=90
+  MCE:              0.2000
+  Prediction Accuracy: 0.8778
+  Uniform Brier Baseline: 0.8889
+
+  By Probe Round:
+  Round      Mean KL    Mean Brier   Type Acc   Pred Acc       N
+  ─────────────────────────────────────────────────────
+  t=3       15.7337        2.0000     0.0000     1.0000      11
+  t=6       15.8326        2.0000     0.0000     0.6667      21
+  t=10      15.8398        2.0000     0.0000       N/A       23
+
+  Opponent Breakdown:
+  OPPONENT                    Mean KL      Brier    TypeAcc       ECE   CoopRate       N
+  ─────────────────────────────────────────────────────────────────────
+  always_cooperate             0.0000     0.0000     0.3333    0.0000     1.0000      10
+  always_defect               15.9664     2.0000     0.0000    0.2750     0.1000      10
+  tit_for_tat                  0.0000     0.0000     0.0000    0.0000     1.0000      10
+  grim_trigger                 0.0000     0.0000     0.0000    0.0000     1.0000      10
+  win_stay_lose_shift          0.0000     0.0000     0.0000    0.0000     1.0000      10
+  noisy_tit_for_tat           15.1185     2.0000     0.0000    0.2450     0.6300      10
+  deceptive_opportunist       15.8800     2.0000     0.0000    0.5500     0.4100      10
+  gradual_defector             0.0000     0.0000     0.0000    0.0000     1.0000      10
+  adaptive_mirror              0.0000     0.0000     0.6667    0.0000     1.0000      10
+-- BATTLE_OF_SEXES ----------------------------------------------------
+  N Episodes: 90 | N Identifiable Probes: 69 | Total Probes: 270
+  KL Divergence:    12.1311  [95% CI: 10.1034, 14.1589]  N=40
+  KL (median/min/max): 15.7636 / 0.9424 / 15.9684
+  Brier Score:      1.5000  [95% CI: 1.2282, 1.7718]  N=40
+  Brier (median/min/max): 2.0000 / 0.0000 / 2.0000
+  Type Accuracy:    0.1111  [95% CI: 0.0458, 0.1764]  N=90  | Chance=0.1111
+  ECE:              0.1583  [95% CI: 0.0957, 0.2210]  N=90
+  MCE:              0.2111
+  Prediction Accuracy: 0.8944
+  Uniform Brier Baseline: 0.8889
+
+  By Probe Round:
+  Round      Mean KL    Mean Brier   Type Acc   Pred Acc       N
+  ─────────────────────────────────────────────────────
+  t=3       15.9547        2.0000     0.0000     1.0000      10
+  t=6       15.9116        2.0000     0.0000     0.5789      19
+  t=10      12.1363        1.5000     0.2500       N/A       40
+
+  Opponent Breakdown:
+  OPPONENT                    Mean KL      Brier    TypeAcc       ECE   CoopRate       N
+  ─────────────────────────────────────────────────────────────────────
+  always_cooperate            15.7636     2.0000     0.0000    0.0000     0.7000      10
+  always_defect               15.9658     2.0000     0.0000    0.7500     0.1000      10
+  tit_for_tat                  0.0000     0.0000     0.0000    0.0000     0.7000      10
+  grim_trigger                 0.0000     0.0000     0.0000    0.0000     0.7000      10
+  win_stay_lose_shift          0.0000     0.0000     0.0000    0.0000     0.7000      10
+  noisy_tit_for_tat           15.3348     2.0000     0.0000    0.0500     0.6500      10
+  deceptive_opportunist       15.9103     2.0000     0.0000    0.6250     0.4300      10
+  gradual_defector             0.0000     0.0000     0.0000    0.0000     0.7000      10
+  adaptive_mirror              0.9424     0.0000     1.0000    0.0000     0.7000      10
+-- OVERALL ---------------------------------------------------------
+  Total Probes: 1080 | Identifiable: 221
+  Mean KL Divergence:   14.1279  [95% CI: 13.2823, 14.9735]  N=107
+  KL (median/min/max): 15.9116 / 0.9424 / 15.9684
+  Mean Brier Score:     1.7822  [95% CI: 1.6689, 1.8956]  N=107
+  Brier (median/min/max): 2.0000 / 0.0000 / 2.0000
+  Type Accuracy:        0.1157  [95% CI: 0.0898, 0.1417]  N=360  | Chance=0.1111
+  ECE:                  0.1422  [95% CI: 0.1167, 0.1678]  N=360
+  MCE:                  0.2039
+  Prediction Accuracy:  0.8972
+  Cooperation Rate:     0.7475
+  Uniform Brier Baseline: 0.8889
+
+Missingness by Field:
+  posterior_over_types: 0
+  confidence: 0
+  predicted_next_action: 0
+
+Warnings / Notes:
+  Missing posterior fields excluded from KL/Brier computation
+  Brier score range is [0, 2]; ceiling (2.0) means all mass on wrong type
+  ECE/MCE computed from argmax-prediction confidence calibration
+
+Trace Audit:
+  Conditions Read: 360
+  Unique Games: 4
+  Unique Episodes: 360
+
+Coverage Check:
+  Expected Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Observed Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Expected Episodes/Game: 90
+  Observed Episodes: 360
+  Missing Games: none
+  Incomplete Games: none

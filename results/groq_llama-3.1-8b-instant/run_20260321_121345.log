@@ -1,0 +1,45 @@
+12:13:45 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (3600 rows)
+12:13:45 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\summary.txt
+12:13:45 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (3600 rows)
+12:13:45 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\summary.txt
+12:13:46 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (9360 rows)
+12:13:48 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\summary.txt
+12:13:48 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (2160 rows)
+12:13:48 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\summary.txt
+12:13:48 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (360 rows)
+12:13:48 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\summary.txt
+12:13:49 [INFO] analyzers: Exp3 sanity: 221 identifiable states OK
+12:13:49 [INFO] analyzers: Exp3 sanity: 855 action-sensitive states OK
+12:13:49 [INFO] analyzers: Exp3 sanity: B payoff mean=0.5978 N=360 OK
+12:13:49 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.6702 N=360 OK
+12:13:49 [INFO] analyzers: Exp4 sanity: 1833/2160 valid (84.9%) OK
+12:13:49 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=1077 both=756
+12:13:51 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (3600 rows)
+12:13:51 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\summary.txt
+12:13:51 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (3600 rows)
+12:13:51 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\summary.txt
+12:13:52 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (9360 rows)
+12:13:53 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\summary.txt
+12:13:53 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (2160 rows)
+12:13:54 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\summary.txt
+12:13:54 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (360 rows)
+12:13:54 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\summary.txt
+12:13:55 [INFO] analyzers: Exp3 sanity: 221 identifiable states OK
+12:13:55 [INFO] analyzers: Exp3 sanity: 855 action-sensitive states OK
+12:13:55 [INFO] analyzers: Exp3 sanity: B payoff mean=0.5978 N=360 OK
+12:13:55 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.6702 N=360 OK
+12:13:55 [INFO] analyzers: Exp4 sanity: 1833/2160 valid (84.9%) OK
+12:13:55 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=1077 both=756
+12:13:55 [INFO] analyzers: All analyzers complete. Results in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant
+12:13:56 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_payoff_by_game.png
+12:13:57 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_cooperation_heatmap.png
+12:13:58 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_kl_by_probe_round.png
+12:13:58 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_calibration_diagram.png
+12:13:59 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_brier_by_game.png
+12:13:59 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_variant_comparison.png
+12:13:59 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_belief_use.png
+12:14:00 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_transform.png
+12:14:00 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_game.png
+12:14:00 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_cognitive_radar.png
+12:14:01 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_js_by_game.png
+12:14:01 [INFO] plots: All plots generated in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots

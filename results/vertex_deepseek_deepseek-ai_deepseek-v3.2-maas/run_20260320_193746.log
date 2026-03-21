@@ -1,0 +1,53 @@
+19:37:46 [INFO] pipeline: Resumed: 2 done, 358 pending
+19:37:46 [INFO] pipeline: Pipeline: 360 conditions, 2 done, 358 pending, stages={'stage3', 'stage1', 'stage5', 'stage4', 'stage2'}
+19:37:46 [INFO] pipeline: [3/360] prisoners_dilemma vs always_cooperate ep=2 seed=841251349
+19:40:48 [INFO] checkpoint: Pipeline checkpoint: 3 done, 357 pending
+19:40:48 [INFO] pipeline: [4/360] prisoners_dilemma vs always_cooperate ep=3 seed=361305831
+19:43:32 [INFO] checkpoint: Pipeline checkpoint: 4 done, 356 pending
+19:43:32 [INFO] pipeline: [5/360] prisoners_dilemma vs always_cooperate ep=4 seed=2128182848
+19:47:11 [INFO] checkpoint: Pipeline checkpoint: 5 done, 355 pending
+19:47:11 [INFO] pipeline: [6/360] prisoners_dilemma vs always_cooperate ep=5 seed=1648237330
+19:49:38 [WARNING] api_clients: Vertex/DeepSeek 429 (attempt 1): retrying in 1.0s
+19:49:56 [INFO] checkpoint: Pipeline checkpoint: 6 done, 354 pending
+19:49:56 [INFO] pipeline: [7/360] prisoners_dilemma vs always_cooperate ep=6 seed=1267630699
+19:52:42 [INFO] checkpoint: Pipeline checkpoint: 7 done, 353 pending
+19:52:42 [INFO] pipeline: [8/360] prisoners_dilemma vs always_cooperate ep=7 seed=887024068
+19:52:48 [WARNING] api_clients: Vertex/DeepSeek 429 (attempt 1): retrying in 1.0s
+19:55:55 [INFO] checkpoint: Pipeline checkpoint: 8 done, 352 pending
+19:55:55 [INFO] pipeline: [9/360] prisoners_dilemma vs always_cooperate ep=8 seed=407078550
+19:58:58 [INFO] checkpoint: Pipeline checkpoint: 9 done, 351 pending
+19:58:58 [INFO] pipeline: [10/360] prisoners_dilemma vs always_cooperate ep=9 seed=26471919
+20:01:59 [INFO] checkpoint: Pipeline checkpoint: 10 done, 350 pending
+20:01:59 [INFO] pipeline: [11/360] prisoners_dilemma vs always_defect ep=0 seed=1837295612
+20:04:53 [INFO] checkpoint: Pipeline checkpoint: 11 done, 349 pending
+20:04:53 [INFO] pipeline: [12/360] prisoners_dilemma vs always_defect ep=1 seed=1357350094
+20:07:44 [INFO] checkpoint: Pipeline checkpoint: 12 done, 348 pending
+20:07:44 [INFO] pipeline: [13/360] prisoners_dilemma vs always_defect ep=2 seed=976743463
+20:10:40 [INFO] checkpoint: Pipeline checkpoint: 13 done, 347 pending
+20:10:40 [INFO] pipeline: [14/360] prisoners_dilemma vs always_defect ep=3 seed=496797945
+20:13:35 [INFO] checkpoint: Pipeline checkpoint: 14 done, 346 pending
+20:13:35 [INFO] pipeline: [15/360] prisoners_dilemma vs always_defect ep=4 seed=116191314
+20:16:15 [INFO] checkpoint: Pipeline checkpoint: 15 done, 345 pending
+20:16:15 [INFO] pipeline: [16/360] prisoners_dilemma vs always_defect ep=5 seed=1883068331
+20:19:01 [INFO] checkpoint: Pipeline checkpoint: 16 done, 344 pending
+20:19:01 [INFO] pipeline: [17/360] prisoners_dilemma vs always_defect ep=6 seed=1403122813
+20:22:25 [INFO] checkpoint: Pipeline checkpoint: 17 done, 343 pending
+20:22:25 [INFO] pipeline: [18/360] prisoners_dilemma vs always_defect ep=7 seed=1022516182
+20:26:10 [INFO] checkpoint: Pipeline checkpoint: 18 done, 342 pending
+20:26:10 [INFO] pipeline: [19/360] prisoners_dilemma vs always_defect ep=8 seed=542570664
+20:29:58 [INFO] checkpoint: Pipeline checkpoint: 19 done, 341 pending
+20:29:58 [INFO] pipeline: [20/360] prisoners_dilemma vs always_defect ep=9 seed=161964033
+20:33:27 [INFO] checkpoint: Pipeline checkpoint: 20 done, 340 pending
+20:33:27 [INFO] pipeline: [21/360] prisoners_dilemma vs tit_for_tat ep=0 seed=2098702373
+20:36:41 [INFO] checkpoint: Pipeline checkpoint: 21 done, 339 pending
+20:36:41 [INFO] pipeline: [22/360] prisoners_dilemma vs tit_for_tat ep=1 seed=1618756855
+20:39:53 [INFO] checkpoint: Pipeline checkpoint: 22 done, 338 pending
+20:39:53 [INFO] pipeline: [23/360] prisoners_dilemma vs tit_for_tat ep=2 seed=1238150224
+20:44:16 [INFO] checkpoint: Pipeline checkpoint: 23 done, 337 pending
+20:44:16 [INFO] pipeline: [24/360] prisoners_dilemma vs tit_for_tat ep=3 seed=758204706
+20:47:40 [INFO] checkpoint: Pipeline checkpoint: 24 done, 336 pending
+20:47:40 [INFO] pipeline: [25/360] prisoners_dilemma vs tit_for_tat ep=4 seed=377598075
+20:50:52 [INFO] checkpoint: Pipeline checkpoint: 25 done, 335 pending
+20:50:52 [INFO] pipeline: [26/360] prisoners_dilemma vs tit_for_tat ep=5 seed=2045136205
+20:50:57 [ERROR] pipeline: Error in condition 26: 'NoneType' object is not subscriptable
+20:50:57 [INFO] checkpoint: Pipeline checkpoint: 25 done, 335 pending

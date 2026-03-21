@@ -1,0 +1,5 @@
+19:36:32 [INFO] pipeline: Resumed: 0 done, 360 pending
+19:36:32 [INFO] pipeline: Pipeline: 360 conditions, 0 done, 360 pending, stages={'stage2', 'stage5', 'stage1', 'stage4', 'stage3'}
+19:36:32 [INFO] pipeline: [1/360] prisoners_dilemma vs always_cooperate ep=0 seed=2071025814
+19:37:23 [WARNING] pipeline: Interrupted — saving checkpoint
+19:37:23 [INFO] checkpoint: Pipeline checkpoint: 0 done, 360 pending

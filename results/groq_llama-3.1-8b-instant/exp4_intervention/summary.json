@@ -1,0 +1,16 @@
+{
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "timestamp": "2026-03-21T12:13:54.056874",
+  "n_conditions": 360,
+  "games": [
+    "battle_of_sexes",
+    "chicken",
+    "prisoners_dilemma",
+    "stag_hunt"
+  ],
+  "n_games": 4,
+  "n_candidate_probes": 2160,
+  "n_valid_probes": 1833,
+  "yield_pct": 84.86111111111111
+}

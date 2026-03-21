@@ -1,0 +1,16 @@
+{
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "timestamp": "2026-03-21T12:13:51.223078",
+  "n_conditions": 360,
+  "games": [
+    "battle_of_sexes",
+    "chicken",
+    "prisoners_dilemma",
+    "stag_hunt"
+  ],
+  "n_games": 4,
+  "n_episodes": 360,
+  "mean_normalized_payoff": 0.6593333333333333,
+  "mean_cooperation_rate": 0.7475
+}

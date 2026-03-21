@@ -1,0 +1,147 @@
+======================================================================
+EXP 6: COGNITIVE THEORY METRICS
+Provider: groq | Model: llama-3.1-8b-instant | Date: 2026-03-21 12:13:54
+======================================================================
+Run Configuration:
+  Provider: groq | Model: llama-3.1-8b-instant
+  Games: battle_of_sexes, chicken, prisoners_dilemma, stag_hunt
+  Opponents/Game: 9
+  Episodes/Opponent: 10
+  Rounds/Episode: 10
+  Probe Rounds: [3, 6, 10]
+  Tau (identifiability): 0.60 | Alpha (margin): 0.05
+  Plausible Perturbation Lambda: 0.80
+  Seed policy: deterministic per (game, opponent, episode)
+  Temperature: 0.0 | Top_p: 1.0
+  Code Version: N/A
+Metric scope:
+  Offline analysis over saved episode/probe traces
+  Episode is the unit of inference for CIs and correlations
+  All belief metrics use elicited (not ground-truth) posteriors
+Integrity:
+  Episodes Used: 360 | Probe Transitions Used: 720
+  Parse/Schema Failures inherited from source traces: 0
+-- PRISONERS_DILEMMA --------------------------------------------------
+  N Episodes: 90
+  H1 - Bayesian Belief Updating
+    Mean JS Divergence: 0.5125  [95% CI: 0.4964, 0.5287]  N=90
+    Mean KL Divergence: 12.3365  [95% CI: 12.0101, 12.6629]  N=90
+  H4 - Metacognitive Calibration
+    ECE: 0.1722  [95% CI: 0.1269, 0.2176]  N=90
+    MCE: 0.2267
+  H7 - Predictive Processing
+    Mean Surprisal:        0.3001
+    Surprisal (median/min/max): 0.0527/0.0527/2.3553
+    Mean Update Magnitude: 0.7967
+    Update Mag (median/min/max): 1.0000/0.0000/1.9000
+    Surprisal-Update Corr: 0.0000  (N=0; 0.0 if constant variance)
+  H6 - Deceptive-Type Gap
+    Deceptive Types (deceptive_opportunist, gradual_defector):    0.0000 acc
+    Non-Deceptive Types:                                          0.1667 acc
+    Gap (non-deceptive - deceptive):                              0.1667
+  H2 - EU-Consistent Coherence: 0.0667  [95% CI: 0.0292, 0.1042]  N=90
+  Posterior Consistency (mean JS consec. probes): 0.2724
+  Cooperation Rate: 0.7822
+-- STAG_HUNT ----------------------------------------------------------
+  N Episodes: 90
+  H1 - Bayesian Belief Updating
+    Mean JS Divergence: 0.5205  [95% CI: 0.5043, 0.5367]  N=90
+    Mean KL Divergence: 12.5241  [95% CI: 12.2219, 12.8264]  N=90
+  H4 - Metacognitive Calibration
+    ECE: 0.1194  [95% CI: 0.0705, 0.1684]  N=90
+    MCE: 0.1778
+  H7 - Predictive Processing
+    Mean Surprisal:        0.3772
+    Surprisal (median/min/max): 0.0000/0.0000/4.6052
+    Mean Update Magnitude: 0.7111
+    Update Mag (median/min/max): 1.0000/0.0000/1.0000
+    Surprisal-Update Corr: 0.0000  (N=0; 0.0 if constant variance)
+  H6 - Deceptive-Type Gap
+    Deceptive Types (deceptive_opportunist, gradual_defector):    0.0000 acc
+    Non-Deceptive Types:                                          0.1429 acc
+    Gap (non-deceptive - deceptive):                              0.1429
+  H2 - EU-Consistent Coherence: 0.8333  [95% CI: 0.7662, 0.9004]  N=90
+  Posterior Consistency (mean JS consec. probes): 0.2465
+  Cooperation Rate: 0.8167
+-- CHICKEN ------------------------------------------------------------
+  N Episodes: 90
+  H1 - Bayesian Belief Updating
+    Mean JS Divergence: 0.5247  [95% CI: 0.5079, 0.5415]  N=90
+    Mean KL Divergence: 12.6295  [95% CI: 12.3099, 12.9492]  N=90
+  H4 - Metacognitive Calibration
+    ECE: 0.1189  [95% CI: 0.0735, 0.1643]  N=90
+    MCE: 0.2000
+  H7 - Predictive Processing
+    Mean Surprisal:        0.4136
+    Surprisal (median/min/max): 0.0000/0.0000/4.6052
+    Mean Update Magnitude: 0.7111
+    Update Mag (median/min/max): 1.0000/0.0000/1.0000
+    Surprisal-Update Corr: 0.0000  (N=0; 0.0 if constant variance)
+  H6 - Deceptive-Type Gap
+    Deceptive Types (deceptive_opportunist, gradual_defector):    0.0000 acc
+    Non-Deceptive Types:                                          0.1429 acc
+    Gap (non-deceptive - deceptive):                              0.1429
+  H2 - EU-Consistent Coherence: 0.1815  [95% CI: 0.1121, 0.2509]  N=90
+  Posterior Consistency (mean JS consec. probes): 0.2465
+  Cooperation Rate: 0.7933
+-- BATTLE_OF_SEXES ----------------------------------------------------
+  N Episodes: 90
+  H1 - Bayesian Belief Updating
+    Mean JS Divergence: 0.5473  [95% CI: 0.5285, 0.5662]  N=90
+    Mean KL Divergence: 12.7294  [95% CI: 12.3195, 13.1394]  N=90
+  H4 - Metacognitive Calibration
+    ECE: 0.1583  [95% CI: 0.0957, 0.2210]  N=90
+    MCE: 0.2111
+  H7 - Predictive Processing
+    Mean Surprisal:        0.5414
+    Surprisal (median/min/max): 0.0000/0.0000/2.6492
+    Mean Update Magnitude: 0.0099
+    Update Mag (median/min/max): 0.0000/0.0000/0.8889
+    Surprisal-Update Corr: 0.0000  (N=0; 0.0 if constant variance)
+  H6 - Deceptive-Type Gap
+    Deceptive Types (deceptive_opportunist, gradual_defector):    0.0000 acc
+    Non-Deceptive Types:                                          0.1429 acc
+    Gap (non-deceptive - deceptive):                              0.1429
+  H2 - EU-Consistent Coherence: 0.5889  [95% CI: 0.5450, 0.6327]  N=90
+  Posterior Consistency (mean JS consec. probes): 0.0028
+  Cooperation Rate: 0.5978
+-- OVERALL ---------------------------------------------------------
+  H1 - Bayesian Belief Updating
+    Mean JS Divergence: 0.5263  [95% CI: 0.5177, 0.5349]  N=360
+    Mean KL Divergence: 12.5549  [95% CI: 12.3839, 12.7259]  N=360
+  H4 - Metacognitive Calibration
+    ECE: 0.1422  [95% CI: 0.1167, 0.1678]  N=360
+    MCE: 0.2039
+  H5 - Cross-Game Rigidity
+    Per-game cooperation rates:
+      prisoners_dilemma: 0.7822
+      stag_hunt: 0.8167
+      chicken: 0.7933
+      battle_of_sexes: 0.5978
+    Rigidity Index: 0.8487  (point estimate across 4 games)
+  H7 - Predictive Processing
+    Mean Surprisal:        0.4081
+    Mean Update Magnitude: 0.5572
+    Surprisal-Update Corr: 0.0000  (N=0; 0.0 if constant variance)
+  H6 - Deceptive-Type Gap:  0.1488
+  H2 - EU-Consistent Coherence: 0.4176  [95% CI: 0.3751, 0.4601]  N=360
+  Posterior Consistency: 0.1920
+
+Warnings / Notes:
+  Rigidity Index is a point estimate (std of per-game cooperation rates)
+  CI omitted as it is not statistically meaningful for a single scalar
+  Surprisal-Update Correlation returns 0.0 when variance is zero (constant predictions)
+  All belief metrics use elicited (not ground-truth) posteriors
+
+Trace Audit:
+  Conditions Read: 360
+  Unique Games: 4
+  Unique Episodes: 360
+
+Coverage Check:
+  Expected Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Observed Games: 4 (battle_of_sexes, chicken, prisoners_dilemma, stag_hunt)
+  Expected Episodes/Game: 90
+  Observed Episodes: 360
+  Missing Games: none
+  Incomplete Games: none

@@ -1,0 +1,231 @@
+10:08:18 [INFO] pipeline: Pipeline: 90 conditions, 0 done, 90 pending, stages={'stage1', 'stage4', 'stage2', 'stage5', 'stage3'}
+10:08:18 [INFO] pipeline: [1/90] stag_hunt vs always_cooperate ep=0 seed=1767914453
+10:08:58 [INFO] checkpoint: Pipeline checkpoint: 1 done, 89 pending
+10:08:58 [INFO] pipeline: [2/90] stag_hunt vs always_cooperate ep=1 seed=1287968935
+10:09:49 [INFO] checkpoint: Pipeline checkpoint: 2 done, 88 pending
+10:09:49 [INFO] pipeline: [3/90] stag_hunt vs always_cooperate ep=2 seed=907362304
+10:10:42 [INFO] checkpoint: Pipeline checkpoint: 3 done, 87 pending
+10:10:42 [INFO] pipeline: [4/90] stag_hunt vs always_cooperate ep=3 seed=526755673
+10:11:32 [INFO] checkpoint: Pipeline checkpoint: 4 done, 86 pending
+10:11:32 [INFO] pipeline: [5/90] stag_hunt vs always_cooperate ep=4 seed=46810155
+10:12:21 [INFO] checkpoint: Pipeline checkpoint: 5 done, 85 pending
+10:12:21 [INFO] pipeline: [6/90] stag_hunt vs always_cooperate ep=5 seed=1813687172
+10:13:01 [INFO] checkpoint: Pipeline checkpoint: 6 done, 84 pending
+10:13:01 [INFO] pipeline: [7/90] stag_hunt vs always_cooperate ep=6 seed=1333741654
+10:13:48 [INFO] checkpoint: Pipeline checkpoint: 7 done, 83 pending
+10:13:48 [INFO] pipeline: [8/90] stag_hunt vs always_cooperate ep=7 seed=953135023
+10:14:33 [INFO] checkpoint: Pipeline checkpoint: 8 done, 82 pending
+10:14:33 [INFO] pipeline: [9/90] stag_hunt vs always_cooperate ep=8 seed=473189505
+10:15:18 [INFO] checkpoint: Pipeline checkpoint: 9 done, 81 pending
+10:15:18 [INFO] pipeline: [10/90] stag_hunt vs always_cooperate ep=9 seed=92582874
+10:16:10 [INFO] checkpoint: Pipeline checkpoint: 10 done, 80 pending
+10:16:10 [INFO] pipeline: [11/90] stag_hunt vs always_defect ep=0 seed=285963985
+10:16:57 [INFO] checkpoint: Pipeline checkpoint: 11 done, 79 pending
+10:16:57 [INFO] pipeline: [12/90] stag_hunt vs always_defect ep=1 seed=2052841002
+10:17:40 [INFO] checkpoint: Pipeline checkpoint: 12 done, 78 pending
+10:17:40 [INFO] pipeline: [13/90] stag_hunt vs always_defect ep=2 seed=1672234371
+10:18:20 [INFO] checkpoint: Pipeline checkpoint: 13 done, 77 pending
+10:18:20 [INFO] pipeline: [14/90] stag_hunt vs always_defect ep=3 seed=1192288853
+10:19:04 [INFO] checkpoint: Pipeline checkpoint: 14 done, 76 pending
+10:19:04 [INFO] pipeline: [15/90] stag_hunt vs always_defect ep=4 seed=811682222
+10:19:45 [INFO] checkpoint: Pipeline checkpoint: 15 done, 75 pending
+10:19:45 [INFO] pipeline: [16/90] stag_hunt vs always_defect ep=5 seed=331736704
+10:20:25 [INFO] checkpoint: Pipeline checkpoint: 16 done, 74 pending
+10:20:25 [INFO] pipeline: [17/90] stag_hunt vs always_defect ep=6 seed=2098613721
+10:21:07 [INFO] checkpoint: Pipeline checkpoint: 17 done, 73 pending
+10:21:07 [INFO] pipeline: [18/90] stag_hunt vs always_defect ep=7 seed=1618668203
+10:21:52 [INFO] checkpoint: Pipeline checkpoint: 18 done, 72 pending
+10:21:52 [INFO] pipeline: [19/90] stag_hunt vs always_defect ep=8 seed=1238061572
+10:22:35 [INFO] checkpoint: Pipeline checkpoint: 19 done, 71 pending
+10:22:35 [INFO] pipeline: [20/90] stag_hunt vs always_defect ep=9 seed=857454941
+10:23:19 [INFO] checkpoint: Pipeline checkpoint: 20 done, 70 pending
+10:23:19 [INFO] pipeline: [21/90] stag_hunt vs tit_for_tat ep=0 seed=1732447195
+10:24:00 [INFO] checkpoint: Pipeline checkpoint: 21 done, 69 pending
+10:24:00 [INFO] pipeline: [22/90] stag_hunt vs tit_for_tat ep=1 seed=1351840564
+10:24:42 [INFO] checkpoint: Pipeline checkpoint: 22 done, 68 pending
+10:24:42 [INFO] pipeline: [23/90] stag_hunt vs tit_for_tat ep=2 seed=971233933
+10:25:24 [INFO] checkpoint: Pipeline checkpoint: 23 done, 67 pending
+10:25:24 [INFO] pipeline: [24/90] stag_hunt vs tit_for_tat ep=3 seed=491288415
+10:26:07 [INFO] checkpoint: Pipeline checkpoint: 24 done, 66 pending
+10:26:07 [INFO] pipeline: [25/90] stag_hunt vs tit_for_tat ep=4 seed=110681784
+10:26:48 [INFO] checkpoint: Pipeline checkpoint: 25 done, 65 pending
+10:26:48 [INFO] pipeline: [26/90] stag_hunt vs tit_for_tat ep=5 seed=1778219914
+10:27:35 [INFO] checkpoint: Pipeline checkpoint: 26 done, 64 pending
+10:27:35 [INFO] pipeline: [27/90] stag_hunt vs tit_for_tat ep=6 seed=1397613283
+10:28:24 [INFO] checkpoint: Pipeline checkpoint: 27 done, 63 pending
+10:28:24 [INFO] pipeline: [28/90] stag_hunt vs tit_for_tat ep=7 seed=917667765
+10:29:12 [INFO] checkpoint: Pipeline checkpoint: 28 done, 62 pending
+10:29:12 [INFO] pipeline: [29/90] stag_hunt vs tit_for_tat ep=8 seed=537061134
+10:30:16 [INFO] checkpoint: Pipeline checkpoint: 29 done, 61 pending
+10:30:16 [INFO] pipeline: [30/90] stag_hunt vs tit_for_tat ep=9 seed=156454503
+10:31:16 [INFO] checkpoint: Pipeline checkpoint: 30 done, 60 pending
+10:31:16 [INFO] pipeline: [31/90] stag_hunt vs grim_trigger ep=0 seed=573852743
+10:32:15 [INFO] checkpoint: Pipeline checkpoint: 31 done, 59 pending
+10:32:15 [INFO] pipeline: [32/90] stag_hunt vs grim_trigger ep=1 seed=193246112
+10:33:13 [INFO] checkpoint: Pipeline checkpoint: 32 done, 58 pending
+10:33:13 [INFO] pipeline: [33/90] stag_hunt vs grim_trigger ep=2 seed=1860784242
+10:34:10 [INFO] checkpoint: Pipeline checkpoint: 33 done, 57 pending
+10:34:10 [INFO] pipeline: [34/90] stag_hunt vs grim_trigger ep=3 seed=1480177611
+10:35:13 [INFO] checkpoint: Pipeline checkpoint: 34 done, 56 pending
+10:35:13 [INFO] pipeline: [35/90] stag_hunt vs grim_trigger ep=4 seed=1000232093
+10:36:15 [INFO] checkpoint: Pipeline checkpoint: 35 done, 55 pending
+10:36:15 [INFO] pipeline: [36/90] stag_hunt vs grim_trigger ep=5 seed=619625462
+10:37:26 [INFO] checkpoint: Pipeline checkpoint: 36 done, 54 pending
+10:37:26 [INFO] pipeline: [37/90] stag_hunt vs grim_trigger ep=6 seed=139679944
+10:38:24 [INFO] checkpoint: Pipeline checkpoint: 37 done, 53 pending
+10:38:24 [INFO] pipeline: [38/90] stag_hunt vs grim_trigger ep=7 seed=1906556961
+10:39:27 [INFO] checkpoint: Pipeline checkpoint: 38 done, 52 pending
+10:39:27 [INFO] pipeline: [39/90] stag_hunt vs grim_trigger ep=8 seed=1525950330
+10:40:25 [INFO] checkpoint: Pipeline checkpoint: 39 done, 51 pending
+10:40:25 [INFO] pipeline: [40/90] stag_hunt vs grim_trigger ep=9 seed=1046004812
+10:41:27 [INFO] checkpoint: Pipeline checkpoint: 40 done, 50 pending
+10:41:27 [INFO] pipeline: [41/90] stag_hunt vs win_stay_lose_shift ep=0 seed=182131857
+10:42:30 [INFO] checkpoint: Pipeline checkpoint: 41 done, 49 pending
+10:42:30 [INFO] pipeline: [42/90] stag_hunt vs win_stay_lose_shift ep=1 seed=1849669987
+10:43:30 [INFO] checkpoint: Pipeline checkpoint: 42 done, 48 pending
+10:43:30 [INFO] pipeline: [43/90] stag_hunt vs win_stay_lose_shift ep=2 seed=1469063356
+10:44:52 [INFO] checkpoint: Pipeline checkpoint: 43 done, 47 pending
+10:44:52 [INFO] pipeline: [44/90] stag_hunt vs win_stay_lose_shift ep=3 seed=1088456725
+10:46:17 [INFO] checkpoint: Pipeline checkpoint: 44 done, 46 pending
+10:46:17 [INFO] pipeline: [45/90] stag_hunt vs win_stay_lose_shift ep=4 seed=608511207
+10:47:28 [INFO] checkpoint: Pipeline checkpoint: 45 done, 45 pending
+10:47:28 [INFO] pipeline: [46/90] stag_hunt vs win_stay_lose_shift ep=5 seed=227904576
+10:48:22 [INFO] checkpoint: Pipeline checkpoint: 46 done, 44 pending
+10:48:22 [INFO] pipeline: [47/90] stag_hunt vs win_stay_lose_shift ep=6 seed=1895442706
+10:49:14 [INFO] checkpoint: Pipeline checkpoint: 47 done, 43 pending
+10:49:14 [INFO] pipeline: [48/90] stag_hunt vs win_stay_lose_shift ep=7 seed=1514836075
+10:50:11 [INFO] checkpoint: Pipeline checkpoint: 48 done, 42 pending
+10:50:11 [INFO] pipeline: [49/90] stag_hunt vs win_stay_lose_shift ep=8 seed=1034890557
+10:51:09 [INFO] checkpoint: Pipeline checkpoint: 49 done, 41 pending
+10:51:09 [INFO] pipeline: [50/90] stag_hunt vs win_stay_lose_shift ep=9 seed=654283926
+10:52:14 [INFO] checkpoint: Pipeline checkpoint: 50 done, 40 pending
+10:52:14 [INFO] pipeline: [51/90] stag_hunt vs noisy_tit_for_tat ep=0 seed=2069290966
+10:53:18 [INFO] checkpoint: Pipeline checkpoint: 51 done, 39 pending
+10:53:18 [INFO] pipeline: [52/90] stag_hunt vs noisy_tit_for_tat ep=1 seed=1688684335
+10:54:36 [INFO] checkpoint: Pipeline checkpoint: 52 done, 38 pending
+10:54:36 [INFO] pipeline: [53/90] stag_hunt vs noisy_tit_for_tat ep=2 seed=1308077704
+10:56:08 [INFO] checkpoint: Pipeline checkpoint: 53 done, 37 pending
+10:56:08 [INFO] pipeline: [54/90] stag_hunt vs noisy_tit_for_tat ep=3 seed=828132186
+10:57:31 [INFO] checkpoint: Pipeline checkpoint: 54 done, 36 pending
+10:57:31 [INFO] pipeline: [55/90] stag_hunt vs noisy_tit_for_tat ep=4 seed=447525555
+10:58:58 [INFO] checkpoint: Pipeline checkpoint: 55 done, 35 pending
+10:58:58 [INFO] pipeline: [56/90] stag_hunt vs noisy_tit_for_tat ep=5 seed=2115063685
+11:00:25 [INFO] checkpoint: Pipeline checkpoint: 56 done, 34 pending
+11:00:25 [INFO] pipeline: [57/90] stag_hunt vs noisy_tit_for_tat ep=6 seed=1734457054
+11:01:56 [INFO] checkpoint: Pipeline checkpoint: 57 done, 33 pending
+11:01:56 [INFO] pipeline: [58/90] stag_hunt vs noisy_tit_for_tat ep=7 seed=1254511536
+11:03:34 [INFO] checkpoint: Pipeline checkpoint: 58 done, 32 pending
+11:03:34 [INFO] pipeline: [59/90] stag_hunt vs noisy_tit_for_tat ep=8 seed=873904905
+11:05:10 [INFO] checkpoint: Pipeline checkpoint: 59 done, 31 pending
+11:05:10 [INFO] pipeline: [60/90] stag_hunt vs noisy_tit_for_tat ep=9 seed=493298274
+11:06:46 [INFO] checkpoint: Pipeline checkpoint: 60 done, 30 pending
+11:06:46 [INFO] pipeline: [61/90] stag_hunt vs deceptive_opportunist ep=0 seed=111168966
+11:07:32 [INFO] groq._base_client: Retrying request to /openai/v1/chat/completions in 0.489978 seconds
+11:08:19 [INFO] checkpoint: Pipeline checkpoint: 61 done, 29 pending
+11:08:19 [INFO] pipeline: [62/90] stag_hunt vs deceptive_opportunist ep=1 seed=1778707096
+11:09:51 [INFO] checkpoint: Pipeline checkpoint: 62 done, 28 pending
+11:09:51 [INFO] pipeline: [63/90] stag_hunt vs deceptive_opportunist ep=2 seed=1398100465
+11:11:21 [INFO] checkpoint: Pipeline checkpoint: 63 done, 27 pending
+11:11:21 [INFO] pipeline: [64/90] stag_hunt vs deceptive_opportunist ep=3 seed=918154947
+11:12:52 [INFO] checkpoint: Pipeline checkpoint: 64 done, 26 pending
+11:12:52 [INFO] pipeline: [65/90] stag_hunt vs deceptive_opportunist ep=4 seed=537548316
+11:14:13 [INFO] checkpoint: Pipeline checkpoint: 65 done, 25 pending
+11:14:13 [INFO] pipeline: [66/90] stag_hunt vs deceptive_opportunist ep=5 seed=156941685
+11:15:13 [INFO] checkpoint: Pipeline checkpoint: 66 done, 24 pending
+11:15:13 [INFO] pipeline: [67/90] stag_hunt vs deceptive_opportunist ep=6 seed=1824479815
+11:16:35 [INFO] checkpoint: Pipeline checkpoint: 67 done, 23 pending
+11:16:35 [INFO] pipeline: [68/90] stag_hunt vs deceptive_opportunist ep=7 seed=1443873184
+11:18:04 [INFO] checkpoint: Pipeline checkpoint: 68 done, 22 pending
+11:18:04 [INFO] pipeline: [69/90] stag_hunt vs deceptive_opportunist ep=8 seed=963927666
+11:19:30 [INFO] checkpoint: Pipeline checkpoint: 69 done, 21 pending
+11:19:30 [INFO] pipeline: [70/90] stag_hunt vs deceptive_opportunist ep=9 seed=583321035
+11:20:55 [INFO] checkpoint: Pipeline checkpoint: 70 done, 20 pending
+11:20:55 [INFO] pipeline: [71/90] stag_hunt vs gradual_defector ep=0 seed=1584383270
+11:22:27 [INFO] checkpoint: Pipeline checkpoint: 71 done, 19 pending
+11:22:27 [INFO] pipeline: [72/90] stag_hunt vs gradual_defector ep=1 seed=1104437752
+11:23:34 [INFO] checkpoint: Pipeline checkpoint: 72 done, 18 pending
+11:23:34 [INFO] pipeline: [73/90] stag_hunt vs gradual_defector ep=2 seed=723831121
+11:24:44 [INFO] checkpoint: Pipeline checkpoint: 73 done, 17 pending
+11:24:44 [INFO] pipeline: [74/90] stag_hunt vs gradual_defector ep=3 seed=343224490
+11:25:50 [INFO] checkpoint: Pipeline checkpoint: 74 done, 16 pending
+11:25:50 [INFO] pipeline: [75/90] stag_hunt vs gradual_defector ep=4 seed=2010762620
+11:26:52 [INFO] checkpoint: Pipeline checkpoint: 75 done, 15 pending
+11:26:52 [INFO] pipeline: [76/90] stag_hunt vs gradual_defector ep=5 seed=1630155989
+11:27:49 [INFO] checkpoint: Pipeline checkpoint: 76 done, 14 pending
+11:27:49 [INFO] pipeline: [77/90] stag_hunt vs gradual_defector ep=6 seed=1150210471
+11:28:55 [INFO] checkpoint: Pipeline checkpoint: 77 done, 13 pending
+11:28:55 [INFO] pipeline: [78/90] stag_hunt vs gradual_defector ep=7 seed=769603840
+11:29:54 [INFO] checkpoint: Pipeline checkpoint: 78 done, 12 pending
+11:29:54 [INFO] pipeline: [79/90] stag_hunt vs gradual_defector ep=8 seed=388997209
+11:30:50 [INFO] checkpoint: Pipeline checkpoint: 79 done, 11 pending
+11:30:50 [INFO] pipeline: [80/90] stag_hunt vs gradual_defector ep=9 seed=2056535339
+11:31:52 [INFO] checkpoint: Pipeline checkpoint: 80 done, 10 pending
+11:31:52 [INFO] pipeline: [81/90] stag_hunt vs adaptive_mirror ep=0 seed=759475660
+11:32:46 [INFO] checkpoint: Pipeline checkpoint: 81 done, 9 pending
+11:32:46 [INFO] pipeline: [82/90] stag_hunt vs adaptive_mirror ep=1 seed=378869029
+11:33:42 [INFO] checkpoint: Pipeline checkpoint: 82 done, 8 pending
+11:33:42 [INFO] pipeline: [83/90] stag_hunt vs adaptive_mirror ep=2 seed=2046407159
+11:34:33 [INFO] checkpoint: Pipeline checkpoint: 83 done, 7 pending
+11:34:33 [INFO] pipeline: [84/90] stag_hunt vs adaptive_mirror ep=3 seed=1665800528
+11:35:34 [INFO] checkpoint: Pipeline checkpoint: 84 done, 6 pending
+11:35:34 [INFO] pipeline: [85/90] stag_hunt vs adaptive_mirror ep=4 seed=1185855010
+11:36:26 [INFO] checkpoint: Pipeline checkpoint: 85 done, 5 pending
+11:36:26 [INFO] pipeline: [86/90] stag_hunt vs adaptive_mirror ep=5 seed=805248379
+11:37:27 [INFO] checkpoint: Pipeline checkpoint: 86 done, 4 pending
+11:37:27 [INFO] pipeline: [87/90] stag_hunt vs adaptive_mirror ep=6 seed=424641748
+11:38:26 [INFO] checkpoint: Pipeline checkpoint: 87 done, 3 pending
+11:38:26 [INFO] pipeline: [88/90] stag_hunt vs adaptive_mirror ep=7 seed=2092179878
+11:39:21 [INFO] checkpoint: Pipeline checkpoint: 88 done, 2 pending
+11:39:21 [INFO] pipeline: [89/90] stag_hunt vs adaptive_mirror ep=8 seed=1711573247
+11:40:14 [INFO] checkpoint: Pipeline checkpoint: 89 done, 1 pending
+11:40:14 [INFO] pipeline: [90/90] stag_hunt vs adaptive_mirror ep=9 seed=1231627729
+11:40:59 [INFO] checkpoint: Pipeline checkpoint: 90 done, 0 pending
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\sensitivity_analysis.csv (3 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:40:59 [INFO] checkpoint: Pipeline checkpoint: 90 done, 0 pending
+11:40:59 [INFO] pipeline: Pipeline complete: 90 conditions (checkpoint preserved)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\sensitivity_analysis.csv (3 rows)
+11:40:59 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:40:59 [INFO] analyzers: Exp3 sanity: 44 identifiable states OK
+11:40:59 [INFO] analyzers: Exp3 sanity: 267 action-sensitive states OK
+11:40:59 [INFO] analyzers: Exp3 sanity: B payoff mean=0.8000 N=90 OK
+11:40:59 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.8824 N=90 OK
+11:40:59 [INFO] analyzers: Exp4 sanity: 524/540 valid (97.0%) OK
+11:40:59 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=268 both=256
+11:41:01 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:41:01 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\summary.txt
+11:41:01 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:41:01 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\summary.txt
+11:41:01 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:41:01 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\summary.txt
+11:41:01 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:41:01 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\summary.txt
+11:41:01 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:41:01 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\summary.txt
+11:41:02 [INFO] analyzers: Exp3 sanity: 44 identifiable states OK
+11:41:02 [INFO] analyzers: Exp3 sanity: 267 action-sensitive states OK
+11:41:02 [INFO] analyzers: Exp3 sanity: B payoff mean=0.8000 N=90 OK
+11:41:02 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.8824 N=90 OK
+11:41:02 [INFO] analyzers: Exp4 sanity: 524/540 valid (97.0%) OK
+11:41:02 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=268 both=256
+11:41:02 [INFO] analyzers: All analyzers complete. Results in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant
+11:41:03 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_payoff_by_game.png
+11:41:04 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_cooperation_heatmap.png
+11:41:04 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_kl_by_probe_round.png
+11:41:05 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_calibration_diagram.png
+11:41:05 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_brier_by_game.png
+11:41:05 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_variant_comparison.png
+11:41:06 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_belief_use.png
+11:41:06 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_transform.png
+11:41:06 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_game.png
+11:41:07 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_cognitive_radar.png
+11:41:07 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_js_by_game.png
+11:41:07 [INFO] plots: All plots generated in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots

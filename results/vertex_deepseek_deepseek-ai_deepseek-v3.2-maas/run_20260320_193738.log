@@ -1,0 +1,5 @@
+19:37:38 [INFO] pipeline: Resumed: 2 done, 358 pending
+19:37:38 [INFO] pipeline: Pipeline: 360 conditions, 2 done, 358 pending, stages={'stage4', 'stage2', 'stage5', 'stage3', 'stage1'}
+19:37:38 [INFO] pipeline: [3/360] prisoners_dilemma vs always_cooperate ep=2 seed=841251349
+19:37:38 [ERROR] pipeline: Error in condition 3: No module named 'openai'
+19:37:38 [INFO] checkpoint: Pipeline checkpoint: 2 done, 358 pending

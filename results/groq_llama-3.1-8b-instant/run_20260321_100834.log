@@ -1,0 +1,230 @@
+10:08:34 [INFO] pipeline: Pipeline: 90 conditions, 0 done, 90 pending, stages={'stage2', 'stage4', 'stage5', 'stage1', 'stage3'}
+10:08:34 [INFO] pipeline: [1/90] chicken vs always_cooperate ep=0 seed=1843431995
+10:09:20 [INFO] checkpoint: Pipeline checkpoint: 1 done, 89 pending
+10:09:20 [INFO] pipeline: [2/90] chicken vs always_cooperate ep=1 seed=1462825364
+10:10:13 [INFO] checkpoint: Pipeline checkpoint: 2 done, 88 pending
+10:10:13 [INFO] pipeline: [3/90] chicken vs always_cooperate ep=2 seed=982879846
+10:11:03 [INFO] checkpoint: Pipeline checkpoint: 3 done, 87 pending
+10:11:03 [INFO] pipeline: [4/90] chicken vs always_cooperate ep=3 seed=602273215
+10:11:54 [INFO] checkpoint: Pipeline checkpoint: 4 done, 86 pending
+10:11:54 [INFO] pipeline: [5/90] chicken vs always_cooperate ep=4 seed=221666584
+10:12:39 [INFO] checkpoint: Pipeline checkpoint: 5 done, 85 pending
+10:12:39 [INFO] pipeline: [6/90] chicken vs always_cooperate ep=5 seed=1889204714
+10:13:21 [INFO] checkpoint: Pipeline checkpoint: 6 done, 84 pending
+10:13:21 [INFO] pipeline: [7/90] chicken vs always_cooperate ep=6 seed=1508598083
+10:14:08 [INFO] checkpoint: Pipeline checkpoint: 7 done, 83 pending
+10:14:08 [INFO] pipeline: [8/90] chicken vs always_cooperate ep=7 seed=1028652565
+10:14:50 [INFO] checkpoint: Pipeline checkpoint: 8 done, 82 pending
+10:14:50 [INFO] pipeline: [9/90] chicken vs always_cooperate ep=8 seed=648045934
+10:15:38 [INFO] checkpoint: Pipeline checkpoint: 9 done, 81 pending
+10:15:38 [INFO] pipeline: [10/90] chicken vs always_cooperate ep=9 seed=267439303
+10:16:30 [INFO] checkpoint: Pipeline checkpoint: 10 done, 80 pending
+10:16:30 [INFO] pipeline: [11/90] chicken vs always_defect ep=0 seed=1921177949
+10:17:15 [INFO] checkpoint: Pipeline checkpoint: 11 done, 79 pending
+10:17:15 [INFO] pipeline: [12/90] chicken vs always_defect ep=1 seed=1441232431
+10:17:58 [INFO] checkpoint: Pipeline checkpoint: 12 done, 78 pending
+10:17:58 [INFO] pipeline: [13/90] chicken vs always_defect ep=2 seed=1060625800
+10:18:38 [INFO] checkpoint: Pipeline checkpoint: 13 done, 77 pending
+10:18:38 [INFO] pipeline: [14/90] chicken vs always_defect ep=3 seed=680019169
+10:19:23 [INFO] checkpoint: Pipeline checkpoint: 14 done, 76 pending
+10:19:23 [INFO] pipeline: [15/90] chicken vs always_defect ep=4 seed=200073651
+10:20:06 [INFO] checkpoint: Pipeline checkpoint: 15 done, 75 pending
+10:20:06 [INFO] pipeline: [16/90] chicken vs always_defect ep=5 seed=1966950668
+10:20:47 [INFO] checkpoint: Pipeline checkpoint: 16 done, 74 pending
+10:20:47 [INFO] pipeline: [17/90] chicken vs always_defect ep=6 seed=1487005150
+10:21:32 [INFO] checkpoint: Pipeline checkpoint: 17 done, 73 pending
+10:21:32 [INFO] pipeline: [18/90] chicken vs always_defect ep=7 seed=1106398519
+10:22:12 [INFO] checkpoint: Pipeline checkpoint: 18 done, 72 pending
+10:22:12 [INFO] pipeline: [19/90] chicken vs always_defect ep=8 seed=626453001
+10:22:54 [INFO] checkpoint: Pipeline checkpoint: 19 done, 71 pending
+10:22:54 [INFO] pipeline: [20/90] chicken vs always_defect ep=9 seed=245846370
+10:23:35 [INFO] checkpoint: Pipeline checkpoint: 20 done, 70 pending
+10:23:35 [INFO] pipeline: [21/90] chicken vs tit_for_tat ep=0 seed=435551673
+10:24:18 [INFO] checkpoint: Pipeline checkpoint: 21 done, 69 pending
+10:24:18 [INFO] pipeline: [22/90] chicken vs tit_for_tat ep=1 seed=2103089803
+10:25:00 [INFO] checkpoint: Pipeline checkpoint: 22 done, 68 pending
+10:25:00 [INFO] pipeline: [23/90] chicken vs tit_for_tat ep=2 seed=1722483172
+10:25:44 [INFO] checkpoint: Pipeline checkpoint: 23 done, 67 pending
+10:25:44 [INFO] pipeline: [24/90] chicken vs tit_for_tat ep=3 seed=1341876541
+10:26:25 [INFO] checkpoint: Pipeline checkpoint: 24 done, 66 pending
+10:26:25 [INFO] pipeline: [25/90] chicken vs tit_for_tat ep=4 seed=861931023
+10:27:09 [INFO] checkpoint: Pipeline checkpoint: 25 done, 65 pending
+10:27:09 [INFO] pipeline: [26/90] chicken vs tit_for_tat ep=5 seed=481324392
+10:27:55 [INFO] checkpoint: Pipeline checkpoint: 26 done, 64 pending
+10:27:55 [INFO] pipeline: [27/90] chicken vs tit_for_tat ep=6 seed=1378874
+10:28:45 [INFO] checkpoint: Pipeline checkpoint: 27 done, 63 pending
+10:28:45 [INFO] pipeline: [28/90] chicken vs tit_for_tat ep=7 seed=1768255891
+10:29:41 [INFO] checkpoint: Pipeline checkpoint: 28 done, 62 pending
+10:29:41 [INFO] pipeline: [29/90] chicken vs tit_for_tat ep=8 seed=1288310373
+10:30:43 [INFO] checkpoint: Pipeline checkpoint: 29 done, 61 pending
+10:30:43 [INFO] pipeline: [30/90] chicken vs tit_for_tat ep=9 seed=907703742
+10:31:44 [INFO] checkpoint: Pipeline checkpoint: 30 done, 60 pending
+10:31:44 [INFO] pipeline: [31/90] chicken vs grim_trigger ep=0 seed=549699575
+10:32:39 [INFO] checkpoint: Pipeline checkpoint: 31 done, 59 pending
+10:32:39 [INFO] pipeline: [32/90] chicken vs grim_trigger ep=1 seed=169092944
+10:33:36 [INFO] checkpoint: Pipeline checkpoint: 32 done, 58 pending
+10:33:36 [INFO] pipeline: [33/90] chicken vs grim_trigger ep=2 seed=1935969961
+10:34:40 [INFO] checkpoint: Pipeline checkpoint: 33 done, 57 pending
+10:34:40 [INFO] pipeline: [34/90] chicken vs grim_trigger ep=3 seed=1456024443
+10:35:45 [INFO] checkpoint: Pipeline checkpoint: 34 done, 56 pending
+10:35:45 [INFO] pipeline: [35/90] chicken vs grim_trigger ep=4 seed=1075417812
+10:36:49 [INFO] checkpoint: Pipeline checkpoint: 35 done, 55 pending
+10:36:49 [INFO] pipeline: [36/90] chicken vs grim_trigger ep=5 seed=595472294
+10:37:58 [INFO] checkpoint: Pipeline checkpoint: 36 done, 54 pending
+10:37:58 [INFO] pipeline: [37/90] chicken vs grim_trigger ep=6 seed=214865663
+10:39:08 [INFO] checkpoint: Pipeline checkpoint: 37 done, 53 pending
+10:39:08 [INFO] pipeline: [38/90] chicken vs grim_trigger ep=7 seed=1882403793
+10:40:03 [INFO] checkpoint: Pipeline checkpoint: 38 done, 52 pending
+10:40:03 [INFO] pipeline: [39/90] chicken vs grim_trigger ep=8 seed=1501797162
+10:41:07 [INFO] checkpoint: Pipeline checkpoint: 39 done, 51 pending
+10:41:07 [INFO] pipeline: [40/90] chicken vs grim_trigger ep=9 seed=1121190531
+10:42:07 [INFO] checkpoint: Pipeline checkpoint: 40 done, 50 pending
+10:42:07 [INFO] pipeline: [41/90] chicken vs win_stay_lose_shift ep=0 seed=328688410
+10:43:08 [INFO] checkpoint: Pipeline checkpoint: 41 done, 49 pending
+10:43:08 [INFO] pipeline: [42/90] chicken vs win_stay_lose_shift ep=1 seed=2095565427
+10:44:23 [INFO] checkpoint: Pipeline checkpoint: 42 done, 48 pending
+10:44:23 [INFO] pipeline: [43/90] chicken vs win_stay_lose_shift ep=2 seed=1714958796
+10:45:50 [INFO] checkpoint: Pipeline checkpoint: 43 done, 47 pending
+10:45:50 [INFO] pipeline: [44/90] chicken vs win_stay_lose_shift ep=3 seed=1235013278
+10:46:59 [INFO] checkpoint: Pipeline checkpoint: 44 done, 46 pending
+10:46:59 [INFO] pipeline: [45/90] chicken vs win_stay_lose_shift ep=4 seed=854406647
+10:48:02 [INFO] checkpoint: Pipeline checkpoint: 45 done, 45 pending
+10:48:02 [INFO] pipeline: [46/90] chicken vs win_stay_lose_shift ep=5 seed=374461129
+10:48:53 [INFO] checkpoint: Pipeline checkpoint: 46 done, 44 pending
+10:48:53 [INFO] pipeline: [47/90] chicken vs win_stay_lose_shift ep=6 seed=2141338146
+10:49:52 [INFO] checkpoint: Pipeline checkpoint: 47 done, 43 pending
+10:49:52 [INFO] pipeline: [48/90] chicken vs win_stay_lose_shift ep=7 seed=1661392628
+10:50:54 [INFO] checkpoint: Pipeline checkpoint: 48 done, 42 pending
+10:50:54 [INFO] pipeline: [49/90] chicken vs win_stay_lose_shift ep=8 seed=1280785997
+10:52:04 [INFO] checkpoint: Pipeline checkpoint: 49 done, 41 pending
+10:52:04 [INFO] pipeline: [50/90] chicken vs win_stay_lose_shift ep=9 seed=900179366
+10:53:07 [INFO] checkpoint: Pipeline checkpoint: 50 done, 40 pending
+10:53:07 [INFO] pipeline: [51/90] chicken vs noisy_tit_for_tat ep=0 seed=1403983198
+10:54:22 [INFO] checkpoint: Pipeline checkpoint: 51 done, 39 pending
+10:54:22 [INFO] pipeline: [52/90] chicken vs noisy_tit_for_tat ep=1 seed=924037680
+10:55:45 [INFO] checkpoint: Pipeline checkpoint: 52 done, 38 pending
+10:55:45 [INFO] pipeline: [53/90] chicken vs noisy_tit_for_tat ep=2 seed=543431049
+10:57:12 [INFO] checkpoint: Pipeline checkpoint: 53 done, 37 pending
+10:57:12 [INFO] pipeline: [54/90] chicken vs noisy_tit_for_tat ep=3 seed=63485531
+10:58:39 [INFO] checkpoint: Pipeline checkpoint: 54 done, 36 pending
+10:58:39 [INFO] pipeline: [55/90] chicken vs noisy_tit_for_tat ep=4 seed=1830362548
+11:00:08 [INFO] checkpoint: Pipeline checkpoint: 55 done, 35 pending
+11:00:08 [INFO] pipeline: [56/90] chicken vs noisy_tit_for_tat ep=5 seed=1350417030
+11:01:38 [INFO] checkpoint: Pipeline checkpoint: 56 done, 34 pending
+11:01:38 [INFO] pipeline: [57/90] chicken vs noisy_tit_for_tat ep=6 seed=969810399
+11:03:05 [INFO] checkpoint: Pipeline checkpoint: 57 done, 33 pending
+11:03:05 [INFO] pipeline: [58/90] chicken vs noisy_tit_for_tat ep=7 seed=589203768
+11:04:45 [INFO] checkpoint: Pipeline checkpoint: 58 done, 32 pending
+11:04:45 [INFO] pipeline: [59/90] chicken vs noisy_tit_for_tat ep=8 seed=109258250
+11:06:12 [INFO] checkpoint: Pipeline checkpoint: 59 done, 31 pending
+11:06:12 [INFO] pipeline: [60/90] chicken vs noisy_tit_for_tat ep=9 seed=1876135267
+11:07:31 [INFO] checkpoint: Pipeline checkpoint: 60 done, 30 pending
+11:07:31 [INFO] pipeline: [61/90] chicken vs deceptive_opportunist ep=0 seed=1687842856
+11:09:01 [INFO] checkpoint: Pipeline checkpoint: 61 done, 29 pending
+11:09:01 [INFO] pipeline: [62/90] chicken vs deceptive_opportunist ep=1 seed=1207897338
+11:10:25 [INFO] checkpoint: Pipeline checkpoint: 62 done, 28 pending
+11:10:25 [INFO] pipeline: [63/90] chicken vs deceptive_opportunist ep=2 seed=827290707
+11:11:57 [INFO] checkpoint: Pipeline checkpoint: 63 done, 27 pending
+11:11:57 [INFO] pipeline: [64/90] chicken vs deceptive_opportunist ep=3 seed=347345189
+11:13:19 [INFO] checkpoint: Pipeline checkpoint: 64 done, 26 pending
+11:13:19 [INFO] pipeline: [65/90] chicken vs deceptive_opportunist ep=4 seed=2114222206
+11:14:26 [INFO] checkpoint: Pipeline checkpoint: 65 done, 25 pending
+11:14:26 [INFO] pipeline: [66/90] chicken vs deceptive_opportunist ep=5 seed=1733615575
+11:15:29 [INFO] checkpoint: Pipeline checkpoint: 66 done, 24 pending
+11:15:29 [INFO] pipeline: [67/90] chicken vs deceptive_opportunist ep=6 seed=1253670057
+11:16:57 [INFO] checkpoint: Pipeline checkpoint: 67 done, 23 pending
+11:16:57 [INFO] pipeline: [68/90] chicken vs deceptive_opportunist ep=7 seed=873063426
+11:18:21 [INFO] checkpoint: Pipeline checkpoint: 68 done, 22 pending
+11:18:21 [INFO] pipeline: [69/90] chicken vs deceptive_opportunist ep=8 seed=393117908
+11:19:44 [INFO] checkpoint: Pipeline checkpoint: 69 done, 21 pending
+11:19:44 [INFO] pipeline: [70/90] chicken vs deceptive_opportunist ep=9 seed=12511277
+11:21:08 [INFO] checkpoint: Pipeline checkpoint: 70 done, 20 pending
+11:21:08 [INFO] pipeline: [71/90] chicken vs gradual_defector ep=0 seed=1377526255
+11:22:37 [INFO] checkpoint: Pipeline checkpoint: 71 done, 19 pending
+11:22:37 [INFO] pipeline: [72/90] chicken vs gradual_defector ep=1 seed=897580737
+11:23:45 [INFO] checkpoint: Pipeline checkpoint: 72 done, 18 pending
+11:23:45 [INFO] pipeline: [73/90] chicken vs gradual_defector ep=2 seed=516974106
+11:24:57 [INFO] checkpoint: Pipeline checkpoint: 73 done, 17 pending
+11:24:57 [INFO] pipeline: [74/90] chicken vs gradual_defector ep=3 seed=136367475
+11:26:14 [INFO] checkpoint: Pipeline checkpoint: 74 done, 16 pending
+11:26:14 [INFO] pipeline: [75/90] chicken vs gradual_defector ep=4 seed=1803905605
+11:27:14 [INFO] checkpoint: Pipeline checkpoint: 75 done, 15 pending
+11:27:14 [INFO] pipeline: [76/90] chicken vs gradual_defector ep=5 seed=1423298974
+11:28:13 [INFO] checkpoint: Pipeline checkpoint: 76 done, 14 pending
+11:28:13 [INFO] pipeline: [77/90] chicken vs gradual_defector ep=6 seed=943353456
+11:29:07 [INFO] checkpoint: Pipeline checkpoint: 77 done, 13 pending
+11:29:07 [INFO] pipeline: [78/90] chicken vs gradual_defector ep=7 seed=562746825
+11:30:04 [INFO] checkpoint: Pipeline checkpoint: 78 done, 12 pending
+11:30:04 [INFO] pipeline: [79/90] chicken vs gradual_defector ep=8 seed=82801307
+11:31:01 [INFO] checkpoint: Pipeline checkpoint: 79 done, 11 pending
+11:31:01 [INFO] pipeline: [80/90] chicken vs gradual_defector ep=9 seed=1849678324
+11:31:58 [INFO] checkpoint: Pipeline checkpoint: 80 done, 10 pending
+11:31:58 [INFO] pipeline: [81/90] chicken vs adaptive_mirror ep=0 seed=1084571380
+11:32:54 [INFO] checkpoint: Pipeline checkpoint: 81 done, 9 pending
+11:32:54 [INFO] pipeline: [82/90] chicken vs adaptive_mirror ep=1 seed=604625862
+11:33:48 [INFO] checkpoint: Pipeline checkpoint: 82 done, 8 pending
+11:33:48 [INFO] pipeline: [83/90] chicken vs adaptive_mirror ep=2 seed=224019231
+11:34:46 [INFO] checkpoint: Pipeline checkpoint: 83 done, 7 pending
+11:34:46 [INFO] pipeline: [84/90] chicken vs adaptive_mirror ep=3 seed=1990896248
+11:35:46 [INFO] checkpoint: Pipeline checkpoint: 84 done, 6 pending
+11:35:46 [INFO] pipeline: [85/90] chicken vs adaptive_mirror ep=4 seed=1510950730
+11:36:44 [INFO] checkpoint: Pipeline checkpoint: 85 done, 5 pending
+11:36:44 [INFO] pipeline: [86/90] chicken vs adaptive_mirror ep=5 seed=1130344099
+11:37:45 [INFO] checkpoint: Pipeline checkpoint: 86 done, 4 pending
+11:37:45 [INFO] pipeline: [87/90] chicken vs adaptive_mirror ep=6 seed=650398581
+11:38:45 [INFO] checkpoint: Pipeline checkpoint: 87 done, 3 pending
+11:38:45 [INFO] pipeline: [88/90] chicken vs adaptive_mirror ep=7 seed=269791950
+11:39:41 [INFO] checkpoint: Pipeline checkpoint: 88 done, 2 pending
+11:39:41 [INFO] pipeline: [89/90] chicken vs adaptive_mirror ep=8 seed=1937330080
+11:40:39 [INFO] checkpoint: Pipeline checkpoint: 89 done, 1 pending
+11:40:39 [INFO] pipeline: [90/90] chicken vs adaptive_mirror ep=9 seed=1556723449
+11:41:33 [INFO] checkpoint: Pipeline checkpoint: 90 done, 0 pending
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\sensitivity_analysis.csv (3 rows)
+11:41:33 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:41:34 [INFO] checkpoint: Pipeline checkpoint: 90 done, 0 pending
+11:41:34 [INFO] pipeline: Pipeline complete: 90 conditions (checkpoint preserved)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\sensitivity_analysis.csv (3 rows)
+11:41:34 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:41:34 [INFO] analyzers: Exp3 sanity: 55 identifiable states OK
+11:41:34 [INFO] analyzers: Exp3 sanity: 270 action-sensitive states OK
+11:41:34 [INFO] analyzers: Exp3 sanity: B payoff mean=0.5185 N=90 OK
+11:41:34 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.4889 N=90 OK
+11:41:34 [INFO] analyzers: Exp4 sanity: 522/540 valid (96.7%) OK
+11:41:34 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=253 both=269
+11:41:35 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\data.csv (900 rows)
+11:41:35 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp1_baseline\summary.txt
+11:41:35 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\data.csv (900 rows)
+11:41:35 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp2_belief\summary.txt
+11:41:35 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\data.csv (2340 rows)
+11:41:36 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp3_coupling\summary.txt
+11:41:36 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\data.csv (540 rows)
+11:41:36 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp4_intervention\summary.txt
+11:41:36 [INFO] analyzers: CSV: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\data.csv (90 rows)
+11:41:36 [INFO] analyzers: Summary (full rebuild): C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\exp6_cognitive\summary.txt
+11:41:36 [INFO] analyzers: Exp3 sanity: 55 identifiable states OK
+11:41:36 [INFO] analyzers: Exp3 sanity: 270 action-sensitive states OK
+11:41:36 [INFO] analyzers: Exp3 sanity: B payoff mean=0.5185 N=90 OK
+11:41:36 [INFO] analyzers: Exp3 sanity: B2 payoff mean=0.4889 N=90 OK
+11:41:36 [INFO] analyzers: Exp4 sanity: 522/540 valid (96.7%) OK
+11:41:36 [INFO] analyzers: Exp4 sanity: validity split — flip_only=0 margin_only=253 both=269
+11:41:36 [INFO] analyzers: All analyzers complete. Results in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant
+11:41:37 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_payoff_by_game.png
+11:41:38 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp1_cooperation_heatmap.png
+11:41:39 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_kl_by_probe_round.png
+11:41:39 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_calibration_diagram.png
+11:41:39 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp2_brier_by_game.png
+11:41:40 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_variant_comparison.png
+11:41:40 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp3_belief_use.png
+11:41:40 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_transform.png
+11:41:40 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp4_by_game.png
+11:41:41 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_cognitive_radar.png
+11:41:41 [INFO] plots: Plot saved: C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots\exp6_js_by_game.png
+11:41:41 [INFO] plots: All plots generated in C:\Users\krish\Desktop\version5\results\groq_llama-3.1-8b-instant\plots

@@ -1,0 +1,4 @@
+game_name,alpha,valid_probes,total_probes,yield_pct
+chicken,0.03 (lenient),528,540,97.77777777777777
+chicken,0.05 (default),522,540,96.66666666666667
+chicken,0.10 (strict),420,540,77.77777777777779

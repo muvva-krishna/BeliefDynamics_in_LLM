@@ -1,0 +1,12 @@
+21:15:11 [INFO] pipeline: Pipeline: 360 conditions, 0 done, 360 pending, stages={'stage5', 'stage3', 'stage4', 'stage1', 'stage2'}
+21:15:11 [INFO] pipeline: [1/360] prisoners_dilemma vs always_cooperate ep=0 seed=954088490
+21:19:24 [INFO] checkpoint: Pipeline checkpoint: 1 done, 359 pending
+21:19:24 [INFO] pipeline: [2/360] prisoners_dilemma vs always_cooperate ep=1 seed=474142972
+21:23:29 [INFO] checkpoint: Pipeline checkpoint: 2 done, 358 pending
+21:23:29 [INFO] pipeline: [3/360] prisoners_dilemma vs always_cooperate ep=2 seed=93536341
+21:27:32 [INFO] checkpoint: Pipeline checkpoint: 3 done, 357 pending
+21:27:32 [INFO] pipeline: [4/360] prisoners_dilemma vs always_cooperate ep=3 seed=1761074471
+21:31:28 [INFO] checkpoint: Pipeline checkpoint: 4 done, 356 pending
+21:31:28 [INFO] pipeline: [5/360] prisoners_dilemma vs always_cooperate ep=4 seed=1380467840
+21:33:36 [WARNING] pipeline: Interrupted — saving checkpoint
+21:33:36 [INFO] checkpoint: Pipeline checkpoint: 4 done, 356 pending
